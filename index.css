@@ -1,0 +1,75 @@
+h1,h2,p {
+    text-align: center;
+}
+
+body {
+    background-image: url(coffee2.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+
+.menu {
+    /* 80% of parent -> body */
+    width: 80%;
+    /* for very big widescreen set max width */
+    max-width: 500px;
+    background-color: burlywood;
+    /* centring the div horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    /* giving some padding to menu */
+    padding: 20px;
+}
+
+.flavor, .dessert {
+    width: 75%;
+    text-align: left;
+
+}
+
+.price {
+    width: 25%;
+    text-align: right;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.established {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.hrow {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 18px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
